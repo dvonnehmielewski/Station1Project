@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <world>
+    <global-technology-database>
+      <location-info sector-name="comm others" subsector-name="electricity">
+        <technology name="datacenter_electricity">
+          <!-- Historical / calibration periods -->
+          <period year="1975">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="1990">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2005">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2010">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2015">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2020">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2021">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <!-- Experiment / future periods -->
+          <period year="2025">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2030">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2035">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2040">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2045">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2050">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2055">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2060">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2065">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2070">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2075">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2080">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2085">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2090">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2095">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+          <period year="2100">
+            <minicam-energy-input name="elect_td_bld">
+              <coefficient>1.0</coefficient>
+              <market-name>USA</market-name>
+            </minicam-energy-input>
+          </period>
+        </technology>
+      </location-info>
+    </global-technology-database>
+    <region name="USA">
+      <supplysector name="comm others">
+        <subsector name="electricity">
+          <stub-technology name="datacenter_electricity">
+            <!-- Zero presence before adoption -->
+            <period year="1975"><share-weight>0</share-weight></period>
+            <period year="1990"><share-weight>0</share-weight></period>
+            <period year="2005"><share-weight>0</share-weight></period>
+            <period year="2010"><share-weight>0</share-weight></period>
+            <period year="2015"><share-weight>0</share-weight></period>
+            <period year="2020"><share-weight>0</share-weight></period>
+            <period year="2021"><share-weight>0</share-weight></period>
+            <!-- Rapid datacenter adoption -->
+            <period year="2025"><share-weight>0.5</share-weight></period>
+            <period year="2030"><share-weight>1.0</share-weight></period>
+            <period year="2035"><share-weight>2.0</share-weight></period>
+            <period year="2040"><share-weight>4.0</share-weight></period>
+            <period year="2045"><share-weight>7.0</share-weight></period>
+            <period year="2050"><share-weight>10.0</share-weight></period>
+            <period year="2055"><share-weight>14.0</share-weight></period>
+            <period year="2060"><share-weight>18.0</share-weight></period>
+            <period year="2065"><share-weight>22.0</share-weight></period>
+            <period year="2070"><share-weight>26.0</share-weight></period>
+            <period year="2075"><share-weight>30.0</share-weight></period>
+            <period year="2080"><share-weight>34.0</share-weight></period>
+            <period year="2085"><share-weight>38.0</share-weight></period>
+            <period year="2090"><share-weight>42.0</share-weight></period>
+            <period year="2095"><share-weight>46.0</share-weight></period>
+            <period year="2100"><share-weight>50.0</share-weight></period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

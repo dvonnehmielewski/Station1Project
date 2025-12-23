@@ -1,0 +1,764 @@
+PROPERTY CHANGEtitle
+PROPERTY CHANGEdocument-replaced
+DOCUMENT REPLACED
+PROPERTY CHANGEdocument-replaced
+DOCUMENT REPLACED
+Going to change controls
+WARNING: database_basexdb.1 contains invalid characters, it has been changed to: database_basexdb
+WARNING: container name 'database_basexdb.1' contains invalid characters, it has been changed to: 'database_basexdb'
+About to perform query: collection()/scenario
+About to perform query: distinct-values(collection()/scenario/world/*[@type = 'region']/@name)
+Didn't find builder for detailed land allocation query going to use defaults
+Didn't find builder for detailed historical land allocation query going to use defaults
+Didn't find builder for land allocation by crop query going to use defaults
+Didn't find builder for aggregated land allocation query going to use defaults
+Didn't find builder for aggregated historical land allocation query going to use defaults
+Didn't find builder for land allocation in a specified land use region query going to use defaults
+Didn't find builder for land allocation by crop and water source query going to use defaults
+Didn't find builder for LUC emissions by region query going to use defaults
+Didn't find builder for LUC emissions by LUT query going to use defaults
+Didn't find builder for LUC emissions by LUT in a specified land use region query going to use defaults
+Didn't find builder for vegetative carbon stock by region query going to use defaults
+Didn't find builder for profit rate query going to use defaults
+Didn't find builder for profit rate in a specified land use region query going to use defaults
+Didn't find builder for land leaf shares query going to use defaults
+Didn't find builder for land leaf shares in a specified land use region query going to use defaults
+Didn't find builder for National Account query going to use defaults
+Didn't find builder for Social Accounting Matrix query going to use defaults
+About to perform query: collection()/singleQueryListCache/cache[@id=-1640479118]/text()
+Time : 4
+About to perform query: collection()/singleQueryListCache/cache[@id=727090629]/text()
+Time : 3
+Before Function: 1764112062835
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector' and not(contains(@name, 'water_td'))]/*[@type='subsector']/*[@type='technology']/*[@type='input' (:collapse:)
+         and contains(@name,'water_td') and ends-with(@name,'_W')]/demand-physical/node()
+In Function: 1764112062838
+After build Tree: 1764112066423
+After Add table: 1764112066433
+About to perform query: collection()/singleQueryListCache/cache[@id=2016604171]/text()
+Time : 2
+About to perform query: collection()/singleQueryListCache/cache[@id=1095285499]/text()
+Time : 3
+Before Function: 1764113407495
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector' ]//
+               *[@type='subsector' and not(@name='elect_td_bld')]//*[@type='technology']/
+               *[@type='input' and (@name='water_td_elec_C')]/demand-physical/node()
+In Function: 1764113407496
+After build Tree: 1764113409873
+After Add table: 1764113409874
+Before Function: 1764113422364
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector']//
+               *[@type='subsector' and not(@name='elect_td_bld')]//*[@type='technology']/
+               *[@type='input' and (@name='water_td_elec_W')]/demand-physical/node()
+In Function: 1764113422365
+New Table: null
+My Table: ModelInterface.ModelGUI2.tables.TableSorter@1036f52b
+Doing remove because of query/table
+After build Tree: 1764113424724
+After Add table: 1764113424725
+About to perform query: collection()/singleQueryListCache/cache[@id=-641898900]/text()
+Time : 3
+Before Function: 1764113686555
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector']/*[@type = 'subsector']/*[@type = 'technology']/*[@type='input' (: collapse :)]/capital/text()
+In Function: 1764113686556
+After build Tree: 1764113687604
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@nuclear~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@solar~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@H2 central production~subsector@wind~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@agricultural energy use~subsector@mobile~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@agricultural energy use~subsector@stationary~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@alumina~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@alumina~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@alumina~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@chemical energy use~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@chemical energy use~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@chemical energy use~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@chemical energy use~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@chemical energy use~subsector@hydrogen~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@chemical energy use~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm cooling~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm cooling~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm heating~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm heating~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm heating~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm heating~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm others~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm others~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm others~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm others~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@comm others~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@construction energy use~subsector@mobile~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@construction energy use~subsector@stationary~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_CSP~subsector@CSP~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_CSP_storage~subsector@CSP_storage~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_Gen_III~subsector@Gen_III~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_Gen_II_LWR~subsector@Gen_II_LWR~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_biomass (IGCC CCS)~subsector@biomass (IGCC CCS)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_biomass (IGCC)~subsector@biomass (IGCC)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_biomass (conv CCS)~subsector@biomass (conv CCS)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_biomass (conv)~subsector@biomass (conv)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_coal (IGCC CCS)~subsector@coal (IGCC CCS)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_coal (IGCC)~subsector@coal (IGCC)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_coal (conv pul CCS)~subsector@coal (conv pul CCS)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_coal (conv pul)~subsector@coal (conv pul)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_gas (CC CCS)~subsector@gas (CC CCS)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_gas (CC)~subsector@gas (CC)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_gas (steam/CT)~subsector@gas (steam/CT)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_geothermal~subsector@geothermal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_refined liquids (CC CCS)~subsector@refined liquids (CC CCS)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_refined liquids (CC)~subsector@refined liquids (CC)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elec_refined liquids (steam/CT)~subsector@refined liquids (steam/CT)~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@elect_td_bld~subsector@rooftop_pv~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@geothermal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@nuclear~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@solar~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@electricity~subsector@wind~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@gas processing~subsector@biomass gasification~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@gas processing~subsector@coal gasification~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@gas processing~subsector@natural gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@iron and steel~subsector@BLASTFUR~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@iron and steel~subsector@EAF with DRI~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@iron and steel~subsector@EAF with scrap~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@mining energy use~subsector@mobile~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@mining energy use~subsector@stationary~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@nuclearFuelGenII~subsector@enrichedUranium~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@nuclearFuelGenIII~subsector@enrichedUranium~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@other industrial energy use~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@other industrial energy use~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@other industrial energy use~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@other industrial energy use~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@other industrial energy use~subsector@hydrogen~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@other industrial energy use~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat cement~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat cement~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat cement~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat cement~subsector@hydrogen~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat cement~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat food processing~subsector@biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat food processing~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat food processing~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat food processing~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat food processing~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat paper~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat paper~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat paper~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@process heat paper~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@refining~subsector@biomass liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@refining~subsector@coal to liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@refining~subsector@gas to liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@refining~subsector@oil refining~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d1~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d10~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d2~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d3~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d4~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d5~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d6~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d7~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d8~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid cooling modern_d9~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d1~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d10~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d2~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d3~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d4~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d5~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d6~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d7~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d8~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating TradBio_d9~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d1~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d10~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d2~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d3~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d4~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d5~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d6~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d7~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d8~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating coal_d9~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d1~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d1~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d1~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d10~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d10~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d10~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d2~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d2~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d2~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d3~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d3~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d3~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d4~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d4~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d4~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d5~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d5~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d5~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d6~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d6~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d6~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d7~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d7~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d7~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d8~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d8~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d8~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d9~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d9~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid heating modern_d9~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d1~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d10~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d2~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d3~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d4~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d5~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d6~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d7~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d8~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others TradBio_d9~subsector@traditional biomass~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d1~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d10~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d2~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d3~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d4~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d5~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d6~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d7~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d8~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others coal_d9~subsector@coal~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d1~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d1~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d1~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d10~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d10~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d10~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d2~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d2~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d2~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d3~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d3~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d3~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d4~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d4~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d4~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d5~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d5~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d5~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d6~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d6~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d6~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d7~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d7~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d7~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d8~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d8~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d8~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d9~subsector@electricity~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d9~subsector@gas~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@resid others modern_d9~subsector@refined liquids~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_aviation_intl~subsector@International Aviation~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_freight~subsector@Domestic Ship~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_freight~subsector@Freight Rail~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_freight_road~subsector@Heavy truck~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_freight_road~subsector@Light truck~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_freight_road~subsector@Medium truck~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass~subsector@Domestic Aviation~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass~subsector@HSR~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass~subsector@Passenger Rail~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass_road~subsector@Bus~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass_road_LDV~subsector@2W and 3W~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass_road_LDV_4W~subsector@Car~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_pass_road_LDV_4W~subsector@Large Car and Truck~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@trn_shipping_intl~subsector@International Ship~capital@
+allNodeInfo: capital@
+BIG PROBLEM, COUNT TOKENS ISN'T 2!!!!!!!!!!: capital@
+lineToParse: scenario@Reference,date=2025-19-10T22:01:47+17:00~region@USA~sector@waste biomass for paper~subsector@biomass~capital@
+allNodeInfo: capital@
+After Add table: 1764113687630
+New Table: null
+My Table: ModelInterface.ModelGUI2.tables.TableSorter@17b41764
+Doing remove because of query/table
+About to perform query: collection()/singleQueryListCache/cache[@id=-1286604088]/text()
+Time : 2
+About to perform query: collection()/singleQueryListCache/cache[@id=1402312530]/text()
+Time : 3
+About to perform query: collection()/singleQueryListCache/cache[@id=-1411195844]/text()
+Time : 2
+About to perform query: collection()/singleQueryListCache/cache[@id=-1235412779]/text()
+Time : 1
+About to perform query: collection()/singleQueryListCache/cache[@id=1767363069]/text()
+Time : 2
+Before Function: 1764115361691
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector' and (@name='building' or (exists(child::keyword[@final-energy='building'])))]/
+               *[@type='subsector']/*[@type='technology']/*[@type='input']/
+               demand-physical/node()
+In Function: 1764115361692
+After build Tree: 1764115361855
+After Add table: 1764115361856
+About to perform query: collection()/singleQueryListCache/cache[@id=-132207680]/text()
+Time : 1
+Before Function: 1764115399200
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector']//*[@type='input' and contains(@name,'water_td_ind')]/demand-physical/node()
+In Function: 1764115399200
+After build Tree: 1764115400321
+After Add table: 1764115400321
+Before Function: 1764115429828
+About to perform query: collection()/scenario[ (@name='Reference' and @date='2025-19-10T22:01:47+17:00') ]/world/region[ (@name='USA') ]/*[@type='sector' (:collapse:) and (exists(child::keyword[@final-energy='energy-for-water']))]//
+               *[@type='input' (:collapse:)]/demand-physical[@unit='EJ']/node()
+In Function: 1764115429829
+After build Tree: 1764115429897
+After Add table: 1764115429897
+New Table: null
+My Table: ModelInterface.ModelGUI2.tables.TableSorter@35cdf934
+Doing remove because of query/table
+New Table: null
+My Table: ModelInterface.ModelGUI2.tables.TableSorter@17a3ee22
+Doing remove because of query/table
+About to perform query: collection()/singleQueryListCache/cache[@id=-1382559636]/text()
+Time : 1
+About to perform query: collection()/singleQueryListCache/cache[@id=2147247936]/text()
+Time : 1
+About to perform query: collection()/singleQueryListCache/cache[@id=-154256045]/text()
+Time : 2
